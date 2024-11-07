@@ -23,6 +23,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd Document/DTN-2402/DevOps/auto
+            /Users/hiepdeptrai0908/Document/DTN-2402/DevOps/devops
             docker-compose down
             docker-compose up -d
